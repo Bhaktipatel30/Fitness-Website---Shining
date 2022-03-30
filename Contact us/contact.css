@@ -1,0 +1,174 @@
+body{
+    margin:0px;
+}
+
+
+
+#maindiv{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#firstimg{
+    /* height: 200px; */
+    width: 200px;
+    background-color:rgb(43, 42, 42);
+    order:1;
+    flex-grow: 1;
+    position: relative;
+}
+
+#bgimgfirst{
+    background-image: url(img/fitness-quotes.png);
+    opacity:0.7;
+    background-size:auto;
+    background-position:left;
+    background-attachment:fixed;
+    padding-top:1.2rem;
+    height:97vh;
+    /* background-repeat: no-repeat; */
+}
+#prtfirtext{
+    margin-top: 300px;
+    padding: 15px;
+    text-align: center;
+    font-family: cursive;
+   /* background-color: black; */
+   color: white;
+  
+}
+
+/* 
+span{
+    color: rgb(251, 252, 249);
+ color: white;
+  font-family:  cookie, cursive;
+  text-align: center;
+  font-size: 27px;
+	padding:;
+} */
+
+#mainprt{
+    /* height: 200px; */
+    width: 200px;
+    background-color: white;
+    order: 2;
+    flex-grow: 1;
+}
+
+#bgimgsecond{
+    
+    background-color: rgb(26, 26, 26);
+    
+    background-image: url(img/fitness.png);
+    opacity:1;
+    background-size:cover;
+    background-position:left;
+    background-attachment:fixed;
+    padding-top:1.2rem;
+    height: 97vh;
+    position: relative;
+    display: flex;
+
+}
+
+#secondimg{
+    /* height: 200px; */
+    width: 200px;
+    /* background-color: rgb(26, 26, 26); */
+    order: 3;
+    flex-grow: 1;
+    opacity: 1;
+    position: relative;
+   
+}
+
+#head1{
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    /* align-content:; */
+    /* height: 8vh; */
+    padding-bottom: 2vh;
+    font-size:23px;
+}
+
+
+input[type=text], input[type=email], textarea{
+    border: none;
+    border-bottom: 2px solid rgb(104, 104, 105);
+    outline: none;
+    /* background-color:black; */
+    text-decoration: none;
+    padding:5px;
+    width: 100%;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight:500;
+    font-size: 14px;
+    color: rgb(18, 18, 19);
+}
+
+label{
+    padding:0px 5px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight:500;
+    font-size: 22px;
+    font-family: cursive;
+}
+
+/* ::placeholder{
+    color: rgb(109, 109, 109);
+} */
+
+
+#formdiv{
+    padding: 10px;
+    background-color: #ffffff50;
+    
+}
+
+#midprt{
+    padding: 10px;
+    /* align-items: center;
+    justify-content: center; */
+    margin:100px 4px 0px;
+    /* border: 1px black dashed; */
+    background-color: #ffffff;
+}
+
+
+.btn{
+    /* background-color: #04AA6D; */
+    background-color: rgb(204, 236, 60);
+    color: white;
+    padding:10px;
+    border:none;
+    width:100%;
+    cursor: pointer;
+    opacity:0.8;
+}
+
+.btn:hover{
+    opacity: 1;
+    background-color: rgb(204, 231, 80);
+}
+
+#info{
+    position: absolute;
+    width: 300px;
+    color: white;
+    font-size:30px;
+    font-family: cursive;
+    border: 2px black solid;
+    text-align: center;
+    
+   
+  
+}
+
+
+
+
+

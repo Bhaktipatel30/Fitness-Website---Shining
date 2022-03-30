@@ -1,0 +1,161 @@
+ .btn {
+    background-color:#EB6920;
+    color: white;
+    padding:10px;
+    border:none;
+    width:80%;
+    cursor: pointer;
+    opacity:0.8;
+    margin-top: 2%;
+    border-radius: 50px;
+}
+
+.btn:hover{
+    opacity:1;
+}
+
+
+ body{
+    margin:0px;
+} 
+
+.bg-img{
+background-image:url("img/pexels-photo-4164651.jpeg");
+height:120vh;
+background-position: center;
+background-repeat: no-repeat; 
+background-size: cover;
+position: relative;
+padding-top:1.2rem;
+}
+
+.logo img{
+height: 90px;
+width: 90px;
+margin-top: -20px;
+}
+
+.back a{
+    text-decoration: none;
+    color: transparent;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+ .container{
+    background-color:#85828299;
+    position:absolute;
+    padding: 16px;
+    width: 400px;
+    margin-left: 10%;
+    height:560px;
+    margin-top: 3%;
+    text-align: center;
+ }
+
+ .container:hover{
+    box-shadow:0px 0px 6px 5px rgba(230,196,196,0.4);
+}
+
+.container h1{
+    padding-bottom: 40px;
+    color: #cc6326;
+}
+
+input[type=email], input[type=password]{
+
+    width:80%;
+    padding: 16px;
+    margin: 5px 0px 22px 0px;
+    background:#dce4f7;
+    border:none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+    outline-color: #EB6920;
+    
+    
+}
+
+::placeholder{
+    font-size:15px;
+}
+/* .forgot{
+    text-decoration: none;
+    color: #EB6920;
+    text-align: left;
+    margin-top:- ;
+} */
+
+label{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left; 
+}
+
+
+
+ /* #opacity form{
+   
+  
+}  */
+
+h1{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+} 
+
+.link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-top: 16px;
+    text-align: center;
+}
+.link a{
+text-decoration: none;
+color: rgb(248, 93, 3);;
+padding: 20px;
+}
+
+.link a:hover{
+    color: rgb(226, 222, 222);
+}
+
+/* hr{
+    color: black;
+} */
+
+
+.main-icons{
+    padding-top: 3px;
+    padding-bottom:7px ;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-icons P{
+    font-size: 19px;
+}
+
+  
+  
+  .main-icons .fab {
+    /* height: 60px;
+    width: 60px; */
+    cursor: pointer;
+    margin: 0 13px;
+    padding:10px 0 ;
+    color: #f8f5f4;
+  }
+  
+  .main-icons i{
+    border-radius: 10px;
+  }
+  
+  .main-icons .fab:hover{
+    color: #e76e1d;
+  }
+  
+  /* .copyright{
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+  } */
